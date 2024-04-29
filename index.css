@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+}
+.dbutton {
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.button {
+    background-color: aquamarine;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ 
+#link {
+    text-decoration: none;
+    color: inherit; 
+    color: black;
+}
+
+.p1 {
+    text-align: center;
+    padding: 250px 0;
+    color: slateblue;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 15px solid red;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#tmp {
+    text-decoration: none;
+    color: inherit;
+}

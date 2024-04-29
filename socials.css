@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+.soon {
+position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    transition: transform .2s;
+}
+.soon:hover {
+    transform: translate(-50%, -50%) scale(2);
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
